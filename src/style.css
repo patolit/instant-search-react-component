@@ -1,0 +1,9 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(78, 146, 65) 35%, rgb(6, 95, 25) 100%);
+}

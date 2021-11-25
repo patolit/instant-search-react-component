@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:wght@300&display=swap');
+
+.search-component {
+  background: rgb(250, 250, 250);
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin: 8px;
+  padding: 10px 0;
+  text-align: center;
+  min-width: 300px;
+  max-width: 500px;
+  min-height: 200px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.14), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+
+.search-panel {
+  position: relative;
+  display: inline-block;
+  width: 90%;
+  border: 0.24rem;
+  border-radius: 4px;
+  text-align: center;
+  margin: auto;
+}
+
+.my-input {
+  margin: auto;
+  box-sizing: border-box;
+  font-family: inherit;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.14), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  height: 1.5em;
+  padding: 1.1em;
+}
+
+.with-suggestions {
+  border-radius: 5px 5px 0px 0px;
+  border-bottom: 1px solid;
+}
+
+.my-input:focus {
+  outline: none !important;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.3),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.4), 0px 1px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.my-input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#s-circle {
+  position: relative;
+  top: -8px;
+  left: 0;
+  width: 43px;
+  height: 43px;
+  margin-top: 0;
+  border-width: 15px;
+  border: 15px solid #fff;
+  background-color: transparent;
+  border-radius: 50%;
+  transition: 0.5s ease all;
+}
